@@ -1,0 +1,16 @@
+﻿# Ignorar archivos mayores a 100 MB
+*.log
+*.cache
+*.bak
+*.tmp
+
+# Ignorar archivos de entornos virtuales (Python)
+venv/
+env/
+*.pyc
+__pycache__/
+
+# Ignorar archivos de configuración y credenciales
+*.env
+config.yaml
+secrets.json
