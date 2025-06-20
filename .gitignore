@@ -1,16 +1,55 @@
-﻿# Ignorar archivos mayores a 100 MB
-*.log
-*.cache
-*.bak
-*.tmp
-
-# Ignorar archivos de entornos virtuales (Python)
-venv/
-env/
-*.pyc
+﻿# Archivos y directorios de Python
 __pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
 
-# Ignorar archivos de configuración y credenciales
-*.env
-config.yaml
-secrets.json
+# Directorios de entornos virtuales
+venv/
+ENV/
+env/
+
+# Archivos de Jupyter Notebook
+.ipynb_checkpoints
+
+# Directorios y archivos de caché
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Archivos de registro
+*.log
+
+# Archivos de entorno local
+.env
+.env.local
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Archivos de Streamlit
+.streamlit/secrets.toml
